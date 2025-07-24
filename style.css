@@ -187,10 +187,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /*-- Responsive Adjustments --*/
 @media (min-width: 992px) {
+    /* Perbaikan: Hapus !important dan properti yang tidak perlu */
     .navbar {
-        background-color: transparent !important;
-        backdrop-filter: none;
-        box-shadow: none;
+        background-color: transparent;
     }
 
     .navbar .navbar-nav {
@@ -237,8 +236,9 @@ h1, h2, h3, h4, h5, h6 {
 /* --- Tambahan CSS untuk Animasi --- */
 
 /* Gaya untuk Navbar saat di-scroll */
+/* Perbaikan: Hapus !important */
 .navbar.scrolled {
-    background-color: rgba(255, 249, 242, 0.95) !important;
+    background-color: rgba(255, 249, 242, 0.95);
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 20px rgba(0,0,0,0.06);
 }
