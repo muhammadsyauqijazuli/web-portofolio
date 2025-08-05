@@ -214,8 +214,14 @@ h1, h2, h3, h4, h5, h6 {
     .skill-tag.tag-blue { left: -5%; }
     .skill-tag.tag-orange { right: -10%; }
     .skill-tag.tag-green { left: 0; }
-    .navbar-collapse { padding: 1rem; }
-    .navbar-nav { align-items: center; }
+    .navbar-collapse {
+        transition: height 0.35s ease-out;
+    }
+    .navbar-nav {
+        align-items: center;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
 }
 
 @media (max-width: 767.98px) {
